@@ -1,0 +1,297 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:"Open Sans Condensed", sans-serif; 
+}
+html,body{
+    width:100%;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+
+}
+header{
+height:95.9px;
+width:100%;
+background:#000;
+position:sticky;
+top:0;
+z-index: 1;
+}
+
+#navbar{
+display:flex;
+background: #000;
+height:95.9px;
+width:auto;
+
+}
+#navbar #logo {
+    width:120px;
+    height:auto;
+}
+#navbar #logo img{
+    position:relative;
+    left:45px;
+    top:20px;
+    width:120px;
+    height:auto;   
+}
+#navbar #menulist{
+    width:600px;
+    height:auto;
+    position:relative;
+    right:50px;
+    bottom:10px;
+}
+#navbar #menulist #list{
+    position:relative;
+    left:760px;
+    top:20px;
+   
+}
+#navbar #menulist ul li{
+    display:inline;
+    margin:0 10px;
+    }
+
+#navbar #menulist ul li a{
+    text-decoration: none;
+    list-style: none;
+    color:white;
+}
+#navbar #icons {
+    position:relative;
+    top:0px;
+    left:1200px;
+    width:300px;
+    height:auto;
+}
+#navbar #icons ul li {
+    display:inline;
+}
+#navbar #icons ul li img{
+   width: 25px;
+   height:auto;
+   margin:0 10px;
+}
+.bigimage{
+    width:1520px;
+    height:100%;
+}
+.bigimage img{
+    max-width:100%;
+    max-height:100%;
+    object-fit: cover;
+}
+
+main #container{
+    width:100%;
+    height:100%;
+  position: relative;
+  right:50px;
+}
+
+#container #whatsapp img{
+width:60px;
+height:auto;
+z-index:1;
+right: 5%;
+position:fixed;
+bottom:10px;
+
+
+}
+main #container #productintro{
+    width:1220px;
+    height:auto;
+   position:relative;
+   top:70px;
+   left:400px;
+}
+
+main #container #productintro p{
+    color:black;
+    font-size: 46px;
+    font-weight:500px;
+
+}
+#products{
+    position: relative;
+    top:100px;
+    left:100px;
+    width:1220;
+    height:100%;
+    
+}
+#products .innerproduct{
+    width:377px;
+    height: auto;
+    flex:1;
+    padding:0;  
+    display: inline-block;
+    position:relative;
+    left:100px;
+}
+#products .innerproduct img{
+    width:377px;
+    height: auto;
+}
+#products .innerproduct a{
+    position:relative;
+    left:120px;
+    top:20px;
+    font-size:24px;
+}
+#products  .movedown{
+    position:relative;
+    top:40px;
+}
+#products  .movedownmore img,a{
+    position:relative;
+    top: 20px;
+}
+.imgdown {
+    width:100%;
+    height:578px;
+    background-color: #000;
+    position:relative;
+    top:300px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.imgdown img{
+    width:1220px;
+    height:auto; 
+    position:relative;
+
+}
+#container1{
+    position:relative;
+    top:200px;
+    width:100%;
+    height:100%;
+    background-color: #000;
+    
+    
+}
+#container1 #img1wrap{ 
+    height:100%;
+    width:50%;
+    background-color: #000;
+  
+}
+#container1 #img1wrap img{
+    height:fit-content;
+    width: 1220px;
+   margin:0 15%;
+  
+}
+#container2{
+    position:relative;
+    top:200px;
+    width:100%;
+    height:100%;
+
+}
+#container2 #img2wrap{
+    height:100%;
+    width:100%;
+    background-color:#be9509;
+}
+#container2 #img2wrap img{
+   position:relative;
+   left:40px;
+}
+footer{
+    position:relative;
+    top:200px;
+    
+    height:250px;
+}
+footer #footerelements{
+    background-color: black;
+    display:flex;
+    height:100%;
+    width:100%;
+  
+}
+#footercontainer1{
+    width:100%;
+    height:100%;
+    display:flex;
+    position:relative;
+    right:50px;
+
+}
+
+#simonslogo img{
+    width:150px;
+    height:auto;
+    position:relative;
+    left:150px;
+    top:30px;
+}
+.footer-col {
+    position:relative;
+    top:30px;
+    left:150px;
+}
+.footer-col h4{
+    color: rgb(190, 149, 9);
+    font-size: 18px;
+   margin:0 60px
+}
+.footer-col ul li{
+list-style: none;
+position: relative;
+padding:5px 0;
+ bottom:20px;
+ margin:0 60px
+}
+.footer-col ul li a{
+   
+    color: rgb(190, 149, 9);
+    text-decoration: none;
+}
+.footer-col ul li #listcontainer{
+    display:flex;
+}
+.footer-col ul li #listcontainer img{
+    position:relative;
+    top:35px;
+    width:75%;
+    height:auto;
+}
+#lazzafooterlogo img{
+    width:150px;
+    height:auto;
+    position:relative;
+    top:40px;
+    left:140px;
+}
+hr{
+   color: rgb(190, 149, 9);
+}
+#tags{
+    position:relative;
+    height: 100px;
+    background-color: #000;
+}
+#tags p{
+    color: rgb(255, 193, 7);
+    font-size: 14px;
+}
+#lefttag{
+    top:40px;
+    position: relative;
+    left:30px;
+}
+#righttag{
+    top:20px;
+    position: relative;
+   left:1200px;
+   bottom:20px;
+}
